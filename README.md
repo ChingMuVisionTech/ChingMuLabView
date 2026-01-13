@@ -1,8 +1,20 @@
-# ChingMuLabView
-LabView demo<br>
-ChingMu Vrpn for Labview<br>
-1.打开demo文件CMVrpn_Demo.vi。<br>
-2.输入服务器地址，选择刚体id，开关循环按钮选择单帧取值或循环取值。点击运行。<br>
-注意默认调用的dll文件为32位，对应labview版本位数，需要64位则在程序框图中修改路径。<br>
-接收多刚体可以参照CMVrpn_Demo_2Body.vi的程序框图结构。<br>
-[CMLabview.zip](https://github.com/ChingMuVisionTech/ChingMuLabView/files/13457928/CMLabview.zip)
+## LabVIEW Demo  
+**ChingMu VRPN for LabVIEW**
+
+### 使用说明
+
+1. 打开示例文件 **`CMVrpn_Demo_body.vi`**  
+2. 输入服务器地址，选择刚体 ID  
+3. 通过循环开关选择 **单帧取值** 或 **循环取值**  
+4. 点击运行开始接收数据  
+
+### 注意事项
+
+- Demo 默认调用 **32 位 DLL**，需与 **LabVIEW 版本位数一致**  
+- 如需使用 **64 位 DLL**，请在程序框图中手动修改 DLL 路径  
+- 若需要接收 **多个刚体数据**，可参考 **`CMVrpn_Demo_2Body.vi`** 的程序框图结构进行扩展  
+
+### 下载
+
+👉 [点击下载 Demo](https://github.com/ChingMuVisionTech/ChingMuLabView/releases/download/1.0.1/CMLabview_20260113.rar)
+
